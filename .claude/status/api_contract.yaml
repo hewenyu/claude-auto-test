@@ -1,0 +1,15 @@
+# API Contract
+
+version: "1.0"
+
+modules:
+  - name: example_module
+    functions:
+      - name: example_function
+        signature: "fn example_function(arg: String) -> Result<String>"
+        description: "Example function description"
+        tests:
+          - "test_example_function_success"
+          - "test_example_function_error"
+
+# Update this file with your actual API contract
